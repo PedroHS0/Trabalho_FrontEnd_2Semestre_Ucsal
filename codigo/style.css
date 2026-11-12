@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+    min-height: 400vh;
+    background-image: url(/img/jpg4.jpg);
+    background-size: cover;        /* preenche toda a área */
+    background-position: center;   /* centraliza a imagem */
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 2.3rem;
+    font-weight: 700;
+    
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
