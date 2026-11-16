@@ -1,17 +1,203 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GameHub Pass</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
 </head>
-    <section class="hero">
-        <h1>Título da sua landing page</h1>
-    </section>
+
 <body>
-   
+
+  <header class="nav">
+    <div class="wrap">
+      <a class="logo" href="#">GameHub<span> Pass</span></a>
+
+      <nav class="nav-links">
+        <a class="link" href="#como">Como funciona</a>
+        <a class="link" href="#planos">Planos</a>
+        <a class="btn btn-azul" href="#planos">Assinar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="wrap section">
+        <div class="selo">Xbox + PlayStation em uma só assinatura</div>
+
+        <h1>
+          Dois catálogos.<br>
+          <span>Uma assinatura.</span>
+        </h1>
+
+        <p>
+          Chega de pagar dois passes. O GameHub Pass reúne os jogos do Xbox
+          e do PlayStation em um único plano, com uma única fatura.
+        </p>
+
+        <div class="acoes">
+          <a class="btn btn-azul" href="#planos">Quero meu GameHub Pass</a>
+          <a class="btn btn-contorno" href="#como">Ver como funciona</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="claro" id="como">
+      <div class="wrap section">
+        <h2>Como funciona</h2>
+        <p class="sub">Três passos e você joga os dois mundos.</p>
+
+        <div class="grid">
+          <div class="passo">
+            <div class="num">01</div>
+            <h3>Escolha seu plano</h3>
+            <p>Selecione o plano que combina com o seu jeito de jogar.</p>
+          </div>
+
+          <div class="passo">
+            <div class="num">02</div>
+            <h3>Conecte suas contas</h3>
+            <p>Vincule seu perfil Xbox e sua conta PlayStation ao GameHub.</p>
+          </div>
+
+          <div class="passo">
+            <div class="num">03</div>
+            <h3>Jogue sem limites</h3>
+            <p>Acesse os catálogos das duas plataformas com uma única assinatura.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap section">
+        <h2 class="titulo titulo-beneficios">Por que GameHub Pass</h2>
+
+        <div class="grid">
+          <div class="card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#4D8DFF" stroke-width="2" aria-hidden="true">
+              <rect x="3" y="5" width="18" height="14" rx="2" />
+              <path d="M3 10h18" />
+            </svg>
+            <h3>Uma fatura só</h3>
+            <p>Um pagamento mensal no lugar de duas assinaturas separadas.</p>
+          </div>
+
+          <div class="card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#4D8DFF" stroke-width="2" aria-hidden="true">
+              <rect x="2" y="7" width="8" height="10" rx="2" />
+              <rect x="14" y="7" width="8" height="10" rx="2" />
+            </svg>
+            <h3>Dois catálogos</h3>
+            <p>Jogos do ecossistema Xbox e do PlayStation reunidos em um só lugar.</p>
+          </div>
+
+          <div class="card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#4D8DFF" stroke-width="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M12 7v5l3 2" />
+            </svg>
+            <h3>Cancele quando quiser</h3>
+            <p>Sem fidelidade e sem burocracia, direto pela sua conta.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="planos" id="planos">
+      <div class="wrap section">
+        <h2 class="titulo">Escolha seu plano</h2>
+        <p class="sub">Valores de acordo com sua necessidade!</p>
+
+        <div class="grid">
+          <div class="card plano">
+            <h3>Essencial</h3>
+            <div class="preco">[R$ 39,90]<small> por mês</small></div>
+            <p>Catálogo base das duas plataformas.</p>
+            <a class="btn btn-contorno" href="#pagamento">Assinar Essencial</a>
+          </div>
+
+          <div class="card plano destaque">
+            <div class="etiqueta">MAIS ESCOLHIDO</div>
+            <h3>Plus</h3>
+            <div class="preco">[R$ 49,90]<small> por mês</small></div>
+            <p>Catálogo ampliado e jogos online nas duas plataformas.</p>
+            <a class="btn btn-azul" href="#pagamento">Assinar Plus</a>
+          </div>
+
+          <div class="card plano">
+            <h3>Ultimate</h3>
+            <div class="preco">[R$ 99,90]<small> por mês</small></div>
+            <p>Tudo do GameHub Pass, com acesso completo aos dois catálogos.</p>
+            <a class="btn btn-contorno" href="#pagamento">Assinar Ultimate</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pagamento" id="pagamento">
+      <div class="wrap section">
+        <h2 class="titulo">Quero assinar</h2>
+        <p class="sub">Deixe seus dados e entraremos em contato para combinar o pagamento.</p>
+
+        <div class="form-card">
+
+          <form id="form-pagamento" novalidate>
+            <div class="campo">
+              <label for="nome">Nome completo</label>
+              <input id="nome" name="nome" type="text" autocomplete="name" placeholder="Seu nome">
+              <span class="erro" id="erro-nome"></span>
+            </div>
+
+            <div class="campo">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="voce@email.com">
+              <span class="erro" id="erro-email"></span>
+            </div>
+
+            <div class="campo">
+              <label for="whatsapp">WhatsApp</label>
+              <input id="whatsapp" name="whatsapp" type="tel" inputmode="numeric" autocomplete="tel-national" placeholder="(71) 91234-5678">
+              <span class="erro" id="erro-whatsapp"></span>
+            </div>
+
+            <p class="erro erro-geral" id="erro-geral"></p>
+
+            <button class="btn btn-azul btn-enviar" type="submit">Enviar e continuar</button>
+          </form>
+
+          <div class="sucesso" id="sucesso" hidden>
+            <h3>Dados enviados!</h3>
+            <p id="sucesso-texto"></p>
+            <a class="btn btn-contorno" href="#planos">Voltar aos planos</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="wrap section">
+        <h2>Pronto para jogar tudo em um só lugar?</h2>
+        <a class="btn btn-azul" href="#planos">Assinar o GameHub Pass</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="wrap">
+      <span>© GameHub Pass</span>
+      <span>Xbox e PlayStation são marcas de seus respectivos proprietários.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
